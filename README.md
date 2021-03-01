@@ -5,3 +5,4 @@
 
 ## Implementation of several searching algorithms:
  - Linear Search
+ - Binary Search
