@@ -12,6 +12,7 @@ int partition(int arr[], int l, int r){
     int i = l-1;
     for(int j=l;j<r;j++){
         if(arr[j]< pi){
+
             i++;
             swap(arr,i,j);
         }
@@ -34,7 +35,7 @@ int main(){
     for(int i=0;i<r;i++){
         cin >> arr[i];
     }
-    quicksort(arr,0,r);
+    quicksort(arr,0,r-1);
     for(int i=0;i<r;i++){
         cout << arr[i] << " ";
     }
