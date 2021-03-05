@@ -1,4 +1,4 @@
-# sorting and searching Algorithms
+# Sorting and Searching Algorithms
 
 ## Implementation of several sorting algorithms:
  - Selection Sort
